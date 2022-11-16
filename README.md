@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# MUSIK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An elegant React.js Music Application. 
 
-## Available Scripts
+# Contributing
 
-In the project directory, you can run:
+When contributing to this repository, please first discuss the change you wish to make via issue. 
 
-### `npm start`
+## System Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with development, you need to install few tools
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. git 
+   
+   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
 
-### `npm test`
+   To check your version of git, run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```shell
+    git --version
+   ```
 
-### `npm run build`
+2. node 
+   
+   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   To check your version of node, run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+    node --version
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. npm
+  
+   `npm` version 5.6.1 or higher. You will have it after you install node.
 
-### `npm run eject`
+   To check your version of npm, run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```shell
+    npm --version
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To set up a development environment, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+   ```shell
+    git clone https://github.com/precious/musik.git
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Change directory to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```shell
+    cd musik
+    ```
 
-### Code Splitting
+3. Install the dependencies
+   
+    ```shell
+     npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    If you get an error, please check the console for more information.
 
-### Analyzing the Bundle Size
+    If you don't get an error, you are ready to start development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Run the app
+   
+    ```shell
+    npm run dev
+    ```
 
-### Making a Progressive Web App
+    Project will be running in the browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Advanced Configuration
+## Issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/precious/musik).
